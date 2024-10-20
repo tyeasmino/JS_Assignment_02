@@ -1,0 +1,85 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+
+.form-control:focus { 
+    box-shadow: 0 0 0 0.25rem #FEAA27;
+}
+
+.btn-search {
+    border-color: #FEAA27;
+}
+
+.btn-search:hover {
+    background-color: #FEAA27;
+}
+
+form:focus-within .btn {
+    box-shadow: 0 0 0 0.25rem #FEAA27;
+}
+
+#foodContainer {
+    display: flex;
+    gap: 10px;
+    flex-wrap: wrap;
+    margin-top: 50px;
+}
+
+.foodCard, .SinglefoodCard {
+    width: 300px; 
+    margin: 10px;  
+    border-radius: 10px;    
+    box-shadow: 4px 4px 8px #feac27a1;
+}
+ 
+
+.foodCard .innerText {  
+    padding: 10px;
+    text-align: center;
+}
+
+.food-img {
+    width: 100%;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    height: 250px;
+    margin-bottom: 20px;
+}
+ 
+
+.SinglefoodCard {
+    width: 100%;
+    margin: auto; 
+}
+
+.SinglefoodCard h4 {
+    padding: 25px 20px;
+}
+
+.SinglefoodCard h6 {
+    padding: 2px 20px;
+}
+
+.ingredientsList {
+    padding: 5px 50px 20px 50px;
+}
+
+.fa-link, .fa-youtube {
+    color: #FEAA27;
+    font-size: 18px;
+    margin: 0 10px;
+}
+
+.table-img {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    margin: 5px;
+}
+
+.modal-body p {
+    padding: 0px 20px;
+}
